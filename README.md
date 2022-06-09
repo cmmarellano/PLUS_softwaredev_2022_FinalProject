@@ -16,12 +16,13 @@
 We propose a python application that allows geocoding from street addresses of location dataset. These geocoded locations will be mapped and be the basis for the main functionality of this project application - routing.
 
 The routing functionality will perform route-finding from the user’s current location to a user defined location (selected from the map). The actual shortest route path will then be visualized on the map, and presented along with the measured distance (by bike, by car, or by walk). 
-
+<br>
 
 ##### Team Members
 
 Arellano, Carla Mae  [@cmmarellano](https://www.github.com/cmmarellano) <br>
 Adriko, Kennedy  [@adken](https://www.github.com/adken)
+<br>
 <br>
 
 ### Methodology
