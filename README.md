@@ -45,6 +45,7 @@ Project Deadline: ***July 10, 2022***
 
 <br>
 Timeline of Activities
+
 ![image](https://user-images.githubusercontent.com/93019319/172907631-37a2f179-92d7-4886-b53b-04a8d9b4e0cc.png)
 
 <br>
