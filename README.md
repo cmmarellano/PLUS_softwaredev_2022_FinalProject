@@ -56,6 +56,7 @@ Responsibilities:
   - Mapping + Interface
   - Testing
   - Improvements
+<br>
 - Kennedy (at least 15 hrs)
   - Geocoding
   - Routing
