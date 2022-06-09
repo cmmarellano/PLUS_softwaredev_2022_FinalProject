@@ -25,7 +25,7 @@ Data Required:
 - Administrative Addresses 
 
 Study / Test Area:
-- Austria (Salzburg)
+- Austria
 <br>
 Python libraries:
 - Geopy
