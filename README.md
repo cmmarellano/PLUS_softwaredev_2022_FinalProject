@@ -5,7 +5,9 @@
 ## “Open Routing in Python”: Building a Routing application using Folium, Geopy, and Open Routes Service API 
 
 
-#### Project Summary
+### Project Summary
+<br>
+
 *Motivation*
 - To explore the use of different geo python libraries that provides simple services such as geocoding, route-finding, and map visualization
 
@@ -15,48 +17,58 @@ The routing functionality will perform route-finding from the user’s current l
 
 
 ##### Team Members
+<br>
+
 Arellano, Carla Mae  [@cmmarellano] (https://www.github.com/cmmarellano) <br>
 Adriko, Kennedy  [@adken] (https://www.github.com/adken)
+<br>
 
+### Methodology
 
-#### Methodology
+<br>
 
 Data Required:
 - Administrative Addresses 
+<br>
 
 Study / Test Area:
 - Austria
 <br>
+
 Python libraries:
 - Geopy
 - Folium
 - Open Routes Service API
 - Etc. (as needed)
 <br>
+
 Steps to be taken:
 - Implement geocoding
 - Plot geocoded locations on web map
 - Implement routing from user location to selected location on the map
+<br>
 
 
-#### Project Timeline
+### Project Timeline
 
 Project Deadline: ***July 10, 2022***
 
 <br>
-Timeline of Activities
+- Timeline of Activities
 
 ![image](https://user-images.githubusercontent.com/93019319/172907631-37a2f179-92d7-4886-b53b-04a8d9b4e0cc.png)
 
 <br>
 Responsibilities:
 <br>
+
 - Carla (at least 15 hrs)
   - Geocoding
   - Mapping + Interface
   - Testing
   - Improvements
 <br>
+
 - Kennedy (at least 15 hrs)
   - Geocoding
   - Routing
