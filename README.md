@@ -17,7 +17,6 @@ The routing functionality will perform route-finding from the user’s current l
 
 
 ##### Team Members
-<br>
 
 Arellano, Carla Mae  [@cmmarellano] (https://www.github.com/cmmarellano) <br>
 Adriko, Kennedy  [@adken] (https://www.github.com/adken)
