@@ -5,8 +5,7 @@
 ## “Open Routing in Python”: Building a Routing application using Folium, Geopy, and Open Routes Service API 
 
 ![image](https://user-images.githubusercontent.com/93019319/172910297-64dc0d28-7c0a-4cc4-9103-f7c8c5529745.png)
-*Sample routing in Folium [Towards DataScience, 2020](![image](https://user-images.githubusercontent.com/93019319/172910550-1e634e9f-9992-44df-98d1-1eeb4abc6539.png)
-)*
+*Sample routing in Folium [Towards DataScience, 2020](https://towardsdatascience.com/build-interactive-gps-activity-maps-from-gpx-files-using-folium-cf9eebba1fe7)*
 
 ### Project Summary
 <br>
@@ -21,8 +20,8 @@ The routing functionality will perform route-finding from the user’s current l
 
 ##### Team Members
 
-Arellano, Carla Mae  [@cmmarellano] (https://www.github.com/cmmarellano) <br>
-Adriko, Kennedy  [@adken] (https://www.github.com/adken)
+Arellano, Carla Mae  [@cmmarellano](https://www.github.com/cmmarellano) <br>
+Adriko, Kennedy  [@adken](https://www.github.com/adken)
 <br>
 
 ### Methodology
