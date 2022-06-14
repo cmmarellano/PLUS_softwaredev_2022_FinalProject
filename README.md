@@ -77,5 +77,15 @@ Responsibilities:
   - Improvements
 
 
+### Libraries Installation
 
+pip install openroutes
+conda install folium
+conda install geopy
+pip install apikey
+
+"""
+Installation of the required libraries for mapping, geocoding and routing in Python
+
+"""
 
