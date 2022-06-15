@@ -89,3 +89,7 @@ Installation of the required libraries for mapping, geocoding and routing in Pyt
 
 """
 
+## Set center of map to austria
+loop through coordinates and pelios geocode, plot resulting datasets to map
+
+ipywidgets to perform 
