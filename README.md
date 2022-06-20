@@ -84,11 +84,11 @@ Update:
 
 
 - Create the environment 'sde_project'
-- Libraries installed
-- folium
-- geopy
-- openrouteservice
-- pandas
+  - Libraries installed
+    - folium
+    - geopy
+    - openrouteservice
+    - pandas
 
 
 ```
