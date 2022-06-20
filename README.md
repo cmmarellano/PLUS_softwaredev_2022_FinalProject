@@ -83,7 +83,7 @@ Update:
 @ 20.06.2022.
 
 
-- Create the environment 'sde_project'
+- Create the environment '[sde_project](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/sde_project_env.yml)'
   - Libraries installed
     - folium
     - geopy
