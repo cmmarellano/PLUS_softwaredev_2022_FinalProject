@@ -1,6 +1,6 @@
 
 *Practice: Software Development - 22S* <br>
-*Final Project Proposal*
+*Final Project*
 
 ## “Open Routing in Python”: Building a Routing application using Folium, Geopy, and Open Routes Service API 
 
@@ -66,6 +66,8 @@ _Destination selection, route computation from user location, and mappping_
 
 
 <br>
+
+----
 
 
 ### Project Timeline
