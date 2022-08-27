@@ -55,8 +55,10 @@ Steps taken:
 
 
 Output:
-(See final notebook [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb][https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb)
+(See final notebook [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb][https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb])
+
 ![](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/img/Sample_SDE.gif)
+
 _Destination selection, route computation from user location, and mappping_
 
 
