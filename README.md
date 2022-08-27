@@ -55,9 +55,10 @@ Steps taken:
 
 
 Output:
-(See final notebook [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb][https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb])
 
-![](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/img/Sample_SDE.gif)
+(See final notebook [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb))
+
+![](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/img/Sample_gif.gif)
 
 _Destination selection, route computation from user location, and mappping_
 
@@ -65,7 +66,7 @@ _Destination selection, route computation from user location, and mappping_
 
 ### Project Timeline
 
-Project Deadline: ***July 10, 2022***
+Project Deadline: ***July 10, 2022 / August 2022***
 
 <br>
 - Timeline of Activities
@@ -93,8 +94,7 @@ Responsibilities:
 ----
 
 Update:
-@ 20.06.2022.
-
+@ 28.08.2022.
 
 - Create the environment '[sde_project](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/sde_project_env.yml)'
   - Libraries installed
