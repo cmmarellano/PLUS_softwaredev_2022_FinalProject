@@ -15,7 +15,7 @@
 
 We propose a python application that allows geocoding from street addresses of location dataset. These geocoded locations will be mapped and be the basis for the main functionality of this project application - routing.
 
-The routing functionality will perform route-finding from a user defined start point to a user defined location (both selected from dropdown list of the geocoded addresses). The actual shortest route path(drive path) will then be visualized on the map, and presented along with the measured distance (by car). 
+The routing functionality will perform route-finding from a user location derived from user IP address to a user defined location (selected from dropdown list of the geocoded addresses). The actual shortest route path(drive path) will then be visualized on the map, and presented along with the measured distance (by car). 
 <br>
 
 ##### Team Members
