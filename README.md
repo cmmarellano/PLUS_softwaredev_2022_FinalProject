@@ -371,3 +371,17 @@ zstd                      1.5.2                h6255e5f_1    conda-forge
 ```
 
 
+
+----
+
+
+### References
+-	https://towardsdatascience.com/visualization-in-python-finding-routes-between-points-2d97d4881996
+-	https://python.plainenglish.io/exploring-open-route-service-api-820a0ccffecc
+-	https://github.com/GIScience/openrouteservice
+-	https://giswqs.medium.com/a-jupyter-notebook-example-for-interactive-mapping-with-earth-engine-ipyleaflet-and-ipywidgets-f1790a9fae0d
+-	https://openrouteservice-py.readthedocs.io/en/latest/
+-	https://towardsdatascience.com/build-interactive-gps-activity-maps-from-gpx-files-using-folium-cf9eebba1fe7
+-	https://discuss.streamlit.io/t/ann-streamlit-folium-a-component-for-rendering-folium-maps/4367
+-	https://ask.openrouteservice.org/t/getting-a-distance/1513
+
