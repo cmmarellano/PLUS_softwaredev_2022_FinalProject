@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ec1be616ad02879f81608a7a062a7a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7ec1be616ad02879f81608a7a062a7a2" ></div>
+        
+</body>
+<script>    
+    
+            var map_7ec1be616ad02879f81608a7a062a7a2 = L.map(
+                "map_7ec1be616ad02879f81608a7a062a7a2",
+                {
+                    center: [52.5257446, 13.3685935],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c53d8669bc01f855165439c7a78c3c2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7ec1be616ad02879f81608a7a062a7a2);
+        
+    
+
+        function geo_json_b021fcb2b675ab4ea4d5d5cb535f1826_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b021fcb2b675ab4ea4d5d5cb535f1826 = L.geoJson(null, {
+                onEachFeature: geo_json_b021fcb2b675ab4ea4d5d5cb535f1826_onEachFeature,
+            
+        });
+
+        function geo_json_b021fcb2b675ab4ea4d5d5cb535f1826_add (data) {
+            geo_json_b021fcb2b675ab4ea4d5d5cb535f1826
+                .addData(data)
+                .addTo(map_7ec1be616ad02879f81608a7a062a7a2);
+        }
+            geo_json_b021fcb2b675ab4ea4d5d5cb535f1826_add({"bbox": [13.36316, 52.52601, 13.370646, 52.560553], "features": [{"bbox": [13.36316, 52.52601, 13.370646, 52.560553], "geometry": {"coordinates": [[13.368372, 52.52601], [13.368923, 52.52618], [13.369041, 52.526217], [13.369174, 52.526258], [13.369232, 52.526275], [13.369891, 52.526478], [13.370382, 52.526628], [13.37044, 52.526653], [13.370568, 52.526706], [13.370497, 52.526796], [13.370476, 52.526822], [13.370417, 52.526897], [13.370272, 52.526862], [13.370208, 52.526846], [13.369779, 52.526713], [13.36955, 52.526642], [13.369297, 52.526564], [13.369137, 52.526514], [13.369071, 52.526494], [13.369035, 52.526483], [13.3688, 52.52641], [13.368132, 52.526203], [13.367831, 52.526099], [13.367809, 52.526163], [13.36781, 52.526308], [13.367831, 52.526555], [13.367898, 52.527371], [13.367911, 52.527437], [13.367944, 52.527596], [13.367991, 52.527746], [13.368021, 52.527825], [13.368097, 52.527973], [13.368149, 52.528122], [13.368402, 52.528353], [13.368547, 52.528449], [13.368737, 52.52855], [13.368824, 52.528592], [13.369279, 52.528772], [13.36944, 52.528821], [13.369599, 52.528869], [13.369531, 52.528969], [13.369425, 52.529122], [13.369204, 52.529444], [13.369063, 52.529654], [13.369059, 52.529772], [13.368981, 52.529893], [13.368191, 52.5307], [13.368152, 52.53074], [13.36811, 52.530782], [13.36756, 52.531344], [13.367478, 52.531428], [13.367465, 52.531442], [13.366948, 52.531965], [13.366856, 52.532059], [13.366753, 52.532163], [13.365195, 52.533737], [13.365122, 52.53381], [13.365111, 52.533821], [13.36503, 52.533904], [13.364641, 52.534304], [13.364632, 52.534314], [13.364598, 52.534349], [13.364503, 52.534447], [13.364407, 52.534545], [13.363899, 52.535063], [13.363719, 52.535241], [13.363388, 52.535563], [13.363339, 52.53561], [13.36316, 52.535788], [13.363273, 52.535852], [13.363551, 52.536], [13.363659, 52.536062], [13.364575, 52.536575], [13.364703, 52.536648], [13.36543, 52.53707], [13.365596, 52.537168], [13.366066, 52.537437], [13.366933, 52.537937], [13.367078, 52.538021], [13.367413, 52.538214], [13.367889, 52.538493], [13.368147, 52.538644], [13.368307, 52.538736], [13.368462, 52.538827], [13.369161, 52.539229], [13.369302, 52.539312], [13.369664, 52.539512], [13.369718, 52.539533], [13.37001, 52.539646], [13.370282, 52.539765], [13.370418, 52.53982], [13.370627, 52.539905], [13.370495, 52.540008], [13.370357, 52.540102], [13.369723, 52.540496], [13.369324, 52.540733], [13.368844, 52.541013], [13.368792, 52.541042], [13.36866, 52.541109], [13.368814, 52.541167], [13.369619, 52.541546], [13.369705, 52.541599], [13.369781, 52.541651], [13.369872, 52.541738], [13.369942, 52.541828], [13.36998, 52.541932], [13.369984, 52.542025], [13.369886, 52.542782], [13.369866, 52.542879], [13.369832, 52.543042], [13.369811, 52.543161], [13.369794, 52.543348], [13.369799, 52.543493], [13.369817, 52.543627], [13.369835, 52.543741], [13.369838, 52.543765], [13.36985, 52.543795], [13.369889, 52.543899], [13.369902, 52.543929], [13.370034, 52.544232], [13.37012, 52.544379], [13.370198, 52.544509], [13.370291, 52.544643], [13.37037, 52.544771], [13.370541, 52.545079], [13.370588, 52.54516], [13.370646, 52.545262], [13.370457, 52.545299], [13.370296, 52.54533], [13.369729, 52.54545], [13.3696, 52.545525], [13.369466, 52.545697], [13.369431, 52.546055], [13.369417, 52.546185], [13.369383, 52.546533], [13.369366, 52.546702], [13.369269, 52.5477], [13.369253, 52.547934], [13.369247, 52.547967], [13.369242, 52.548023], [13.36924, 52.548047], [13.369238, 52.548147], [13.369213, 52.548302], [13.3692, 52.548381], [13.369177, 52.548496], [13.369141, 52.548611], [13.369097, 52.548696], [13.368861, 52.549082], [13.368329, 52.549977], [13.368275, 52.550067], [13.368199, 52.550204], [13.367905, 52.550762], [13.367523, 52.551453], [13.36746, 52.551554], [13.367395, 52.551673], [13.367334, 52.551784], [13.367227, 52.551958], [13.367121, 52.552135], [13.367095, 52.552179], [13.366899, 52.552523], [13.366646, 52.553021], [13.366461, 52.553387], [13.366407, 52.553494], [13.366295, 52.553764], [13.366245, 52.553934], [13.366122, 52.554578], [13.366069, 52.554885], [13.366048, 52.555006], [13.366041, 52.555046], [13.365817, 52.55624], [13.365808, 52.556288], [13.365779, 52.556447], [13.365756, 52.556572], [13.36572, 52.556774], [13.365712, 52.556831], [13.365685, 52.556963], [13.365678, 52.556994], [13.365651, 52.557124], [13.365639, 52.557183], [13.365494, 52.557935], [13.36548, 52.558024], [13.365459, 52.558129], [13.365191, 52.559527], [13.365177, 52.559596], [13.365111, 52.559944], [13.365053, 52.560246], [13.365024, 52.560403], [13.364993, 52.560553], [13.364805, 52.560549], [13.364634, 52.560548], [13.364099, 52.56048], [13.364096, 52.560487]], "type": "LineString"}, "properties": {"segments": [{"distance": 4865.7, "duration": 666.2, "steps": [{"distance": 167.6, "duration": 37.6, "instruction": "Head northeast on Invalidenstra\u00dfe", "name": "Invalidenstra\u00dfe", "type": 11, "way_points": [0, 8]}, {"distance": 219.8, "duration": 49.0, "instruction": "Continue straight onto Invalidenstra\u00dfe", "name": "Invalidenstra\u00dfe", "type": 6, "way_points": [8, 22]}, {"distance": 358.0, "duration": 56.6, "instruction": "Turn sharp right onto Minna-Cauer-Stra\u00dfe", "name": "Minna-Cauer-Stra\u00dfe", "type": 3, "way_points": [22, 39]}, {"distance": 886.7, "duration": 112.0, "instruction": "Turn left onto Heidestra\u00dfe, B 96", "name": "Heidestra\u00dfe, B 96", "type": 0, "way_points": [39, 68]}, {"distance": 682.6, "duration": 84.8, "instruction": "Turn right onto Sellerstra\u00dfe, B 96", "name": "Sellerstra\u00dfe, B 96", "type": 1, "way_points": [68, 91]}, {"distance": 188.9, "duration": 27.9, "instruction": "Turn left onto M\u00fcllerstra\u00dfe, B 96", "name": "M\u00fcllerstra\u00dfe, B 96", "type": 0, "way_points": [91, 98]}, {"distance": 511.5, "duration": 89.8, "instruction": "Turn sharp right onto Fennstra\u00dfe, B 96", "name": "Fennstra\u00dfe, B 96", "type": 3, "way_points": [98, 126]}, {"distance": 1788.4, "duration": 191.7, "instruction": "Turn left onto Reinickendorfer Stra\u00dfe, B 96", "name": "Reinickendorfer Stra\u00dfe, B 96", "type": 0, "way_points": [126, 187]}, {"distance": 61.3, "duration": 16.2, "instruction": "Turn left", "name": "-", "type": 0, "way_points": [187, 190]}, {"distance": 0.8, "duration": 0.5, "instruction": "Turn right", "name": "-", "type": 1, "way_points": [190, 191]}, {"distance": 0.0, "duration": 0.0, "instruction": "Arrive at your destination, on the left", "name": "-", "type": 10, "way_points": [191, 191]}]}], "summary": {"distance": 4865.7, "duration": 666.2}, "way_points": [0, 191]}, "type": "Feature"}], "metadata": {"attribution": "openrouteservice.org | OpenStreetMap contributors", "engine": {"build_date": "2022-02-18T19:37:41Z", "graph_date": "2022-08-14T14:40:44Z", "version": "6.7.0"}, "query": {"coordinates": [[13.3685935, 52.5257446], [13.363578022778876, 52.56053795]], "format": "geojson", "profile": "driving-car"}, "service": "routing", "timestamp": 1661628301963}, "type": "FeatureCollection"});
+
+        
+    
+            var layer_control_469535a8ae0feff4069a5ef3a895647b = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_6c53d8669bc01f855165439c7a78c3c2,
+                },
+                overlays :  {
+                    "route" : geo_json_b021fcb2b675ab4ea4d5d5cb535f1826,
+                },
+            };
+            L.control.layers(
+                layer_control_469535a8ae0feff4069a5ef3a895647b.base_layers,
+                layer_control_469535a8ae0feff4069a5ef3a895647b.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_7ec1be616ad02879f81608a7a062a7a2);
+        
+    
+            var marker_a9d4b91b9e77d0ca43420e0c73ad31d4 = L.marker(
+                [52.5257446, 13.3685935],
+                {}
+            ).addTo(map_7ec1be616ad02879f81608a7a062a7a2);
+        
+    
+        var popup_4f216c692322229b77d30902c0f2e877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00c9f7b28999102f9a25194599383586 = $(`<div id="html_00c9f7b28999102f9a25194599383586" style="width: 100.0%; height: 100.0%;">Europaplatz 1, 10557, Berlin, Germany</div>`)[0];
+            popup_4f216c692322229b77d30902c0f2e877.setContent(html_00c9f7b28999102f9a25194599383586);
+        
+
+        marker_a9d4b91b9e77d0ca43420e0c73ad31d4.bindPopup(popup_4f216c692322229b77d30902c0f2e877)
+        ;
+
+        
+    
+    
+            var marker_6749e2bee9888d10087290c1905a00c6 = L.marker(
+                [52.56053795, 13.363578022778876],
+                {}
+            ).addTo(map_7ec1be616ad02879f81608a7a062a7a2);
+        
+    
+        var popup_8becfaac07f61e77c151c578656b750b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21b90d1e283a18b63e3d5606052e865f = $(`<div id="html_21b90d1e283a18b63e3d5606052e865f" style="width: 100.0%; height: 100.0%;">Markstr. 16, 13409, Berlin, Germany</div>`)[0];
+            popup_8becfaac07f61e77c151c578656b750b.setContent(html_21b90d1e283a18b63e3d5606052e865f);
+        
+
+        marker_6749e2bee9888d10087290c1905a00c6.bindPopup(popup_8becfaac07f61e77c151c578656b750b)
+        ;
+
+        
+    
+</script>
