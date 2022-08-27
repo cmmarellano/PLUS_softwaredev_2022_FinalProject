@@ -54,14 +54,18 @@ Steps taken:
 
 
 
-Output:
+### Output:
 
-(See final notebook [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb))
+@28.08.2022 <br>
+*See final notebook for implementation [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb)
+<br>
 
 ![](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/img/Sample_gif.gif)
 
 _Destination selection, route computation from user location, and mappping_
 
+
+<br>
 
 
 ### Project Timeline
