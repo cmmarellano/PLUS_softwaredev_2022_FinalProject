@@ -15,7 +15,7 @@
 
 We propose a python application that allows geocoding from street addresses of location dataset. These geocoded locations will be mapped and be the basis for the main functionality of this project application - routing.
 
-The routing functionality will perform route-finding from the user’s current location to a user defined location (selected from the map). The actual shortest route path will then be visualized on the map, and presented along with the measured distance (by bike, by car, or by walk). 
+The routing functionality will perform route-finding from a user defined start point to a user defined location (both selected from dropdown list of the geocoded addresses). The actual shortest route path(drive path) will then be visualized on the map, and presented along with the measured distance (by car). 
 <br>
 
 ##### Team Members
@@ -40,13 +40,16 @@ Python libraries:
 - Geopy
 - Folium
 - Open Routes Service API
+- Leafmap
 - Etc. (as needed)
 <br>
 
 Steps to be taken:
 - Implement geocoding
 - Plot geocoded locations on web map
-- Implement routing from user location to selected location on the map
+- Implement routing from user selected origin to user selected destination on the map
+- Visualize optimal driving route
+- Calculate distance for optimal driving route
 <br>
 
 
