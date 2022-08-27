@@ -55,11 +55,13 @@ Steps taken:
 - Calculate distance for optimal driving route
 <br>
 
+-------
 
 
-### Output:
+### Results :
 
 @28.08.2022 <br>
+
 *See final notebook for implementation [https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb)
 <br>
 
