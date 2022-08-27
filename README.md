@@ -34,13 +34,16 @@ Data Required:
 
 Study / Test Area:
 - Austria
+- EU
 <br>
 
 Python libraries:
 - Geopy
 - Folium
 - Open Routes Service API
+- Pandas
 - Leafmap
+- Nominatim
 - Etc. (as needed)
 <br>
 
