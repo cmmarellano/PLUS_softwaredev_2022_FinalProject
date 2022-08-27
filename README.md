@@ -104,10 +104,12 @@ Responsibilities:
 
 ----
 
+### General Instructions
+
 Update:
 @ 28.08.2022.
 
-- Create the environment '[sde_project](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/sde_project_env.yml)'
+1. Create the environment '[sde_project](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/sde_project_env.yml)'
   - Libraries installed
     - folium
     - geopy
@@ -369,6 +371,14 @@ zlib                      1.2.12               h8ffe710_1    conda-forge
 zstd                      1.5.2                h6255e5f_1    conda-forge
 
 ```
+
+2. Obtain Openrouteservice API key
+3. Run the notebook: [Map_routing.ipynb](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/Map_routing.ipynb)
+4. Append key on OSR client
+5. On file upload widget, input [restaurants.csv](https://github.com/cmmarellano/PLUS_softwaredev_2022_FinalProject/blob/main/restaurant.csv)
+6. Run geocoding
+7. On dropdown widget, select a 'destination'
+8. Run mapping code to obtain the map visualization and route information! ;)
 
 
 
