@@ -4,31 +4,44 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - altair=4.2.0=pyhd8ed1ab_1
   - anyio=3.6.1=py39hcbf5309_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py39hb82d6ee_2
+  - arrow-cpp=8.0.0=py39hbd6f097_0
   - asttokens=2.0.5=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd8ed1ab_0
+  - aws-c-common=0.4.57=ha925a31_1
+  - aws-c-event-stream=0.1.6=hd77b12b_5
+  - aws-checksums=0.1.9=ha925a31_0
+  - aws-sdk-cpp=1.8.185=hd77b12b_0
   - babel=2.10.3=pyhd8ed1ab_0
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.1=pyha770c72_0
   - bleach=5.0.0=pyhd8ed1ab_0
+  - blinker=1.4=py_1
+  - boost-cpp=1.80.0=h9f4b32c_0
   - bqplot=0.12.33=pyhd8ed1ab_0
   - branca=0.5.0=pyhd8ed1ab_0
   - brotli=1.0.9=h8ffe710_7
   - brotli-bin=1.0.9=h8ffe710_7
   - brotlipy=0.7.0=py39hb82d6ee_1004
-  - ca-certificates=2022.4.26=haa95532_0
-  - certifi=2021.10.8=py39haa95532_2
+  - bzip2=1.0.8=h8ffe710_4
+  - c-ares=1.18.1=h8ffe710_0
+  - ca-certificates=2022.6.15=h5b45459_0
+  - cachetools=5.2.0=pyhd8ed1ab_0
+  - certifi=2022.6.15=pyhd8ed1ab_1
   - cffi=1.15.0=py39h0878f49_0
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
   - click=8.1.3=py39hcbf5309_0
   - colorama=0.4.5=pyhd8ed1ab_0
   - colour=0.1.5=py_0
+  - commonmark=0.9.1=py_0
   - cryptography=37.0.2=py39h7bc7c5c_0
   - cycler=0.11.0=pyhd8ed1ab_0
+  - dataclasses=0.8=pyhc8e2a94_3
   - debugpy=1.6.0=py39h415ef7b_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
@@ -39,10 +52,15 @@ dependencies:
   - folium=0.12.1.post1=pyhd8ed1ab_1
   - fonttools=4.33.3=py39hb82d6ee_0
   - freetype=2.10.4=h546665d_1
+  - future=0.18.2=py39hcbf5309_5
   - gdown=4.4.0=pyhd8ed1ab_0
   - geographiclib=1.52=pyhd8ed1ab_0
   - geojson=2.5.0=py_0
   - geopy=2.2.0=pyhd8ed1ab_0
+  - gflags=2.2.2=ha925a31_1004
+  - gitdb=4.0.9=pyhd8ed1ab_0
+  - gitpython=3.1.27=pyhd8ed1ab_0
+  - glog=0.6.0=h4797de2_0
   - idna=3.3=pyhd8ed1ab_0
   - importlib-metadata=4.11.4=py39hcbf5309_0
   - importlib_metadata=4.11.4=hd8ed1ab_0
@@ -71,6 +89,7 @@ dependencies:
   - jupyterlab_server=2.14.0=pyhd8ed1ab_0
   - jupyterlab_widgets=1.1.0=pyhd8ed1ab_0
   - kiwisolver=1.4.3=py39h2e07f2f_0
+  - krb5=1.19.3=h1176d77_0
   - lcms2=2.12=h2a16943_0
   - leafmap=0.9.4=pyhd8ed1ab_0
   - lerc=3.0=h0e60522_0
@@ -79,10 +98,14 @@ dependencies:
   - libbrotlidec=1.0.9=h8ffe710_7
   - libbrotlienc=1.0.9=h8ffe710_7
   - libcblas=3.9.0=15_win64_mkl
+  - libcurl=7.83.1=h789b8ee_0
   - libdeflate=1.12=h8ffe710_0
   - liblapack=3.9.0=15_win64_mkl
   - libpng=1.6.37=h1d00b33_2
+  - libprotobuf=3.20.1=h7755175_1
   - libsodium=1.0.18=h8d14728_1
+  - libssh2=1.10.0=h680486a_3
+  - libthrift=0.15.0=h636ae23_1
   - libtiff=4.4.0=h2ed3b44_1
   - libwebp=1.2.2=h57928b3_0
   - libwebp-base=1.2.2=h8ffe710_1
@@ -114,10 +137,9 @@ dependencies:
   - notebook-shim=0.1.0=pyhd8ed1ab_0
   - numpy=1.22.4=py39h0948cea_0
   - openjpeg=2.4.0=hb211442_1
-  - openssl=1.1.1o=h2bbff1b_0
+  - openssl=1.1.1q=h8ffe710_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.4.2=py39h2e25243_2
-  - pandoc=2.18=h57928b3_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
@@ -125,13 +147,16 @@ dependencies:
   - pip=21.2.4=py39haa95532_0
   - prometheus_client=0.14.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.29=pyha770c72_0
+  - protobuf=3.20.1=py39hcbf5309_0
   - pscript=0.7.5=pyhd3deb0d_0
   - psutil=5.9.1=py39hb82d6ee_0
   - pthread-stubs=0.4=hcd874cb_1001
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
   - pycrs=1.0.2=py_0
+  - pydeck=0.7.1=pyh6c4a22f_0
   - pygments=2.12.0=pyhd8ed1ab_0
+  - pympler=1.0.1=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
   - pyrsistent=0.18.1=py39hb82d6ee_1
@@ -143,19 +168,27 @@ dependencies:
   - python-box=6.0.2=pyhd8ed1ab_0
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.15.3=pyhd8ed1ab_0
+  - python-tzdata=2022.2=pyhd8ed1ab_0
   - python_abi=3.9=2_cp39
   - pytz=2022.1=pyhd8ed1ab_0
+  - pytz-deprecation-shim=0.1.0.post0=py39hcbf5309_2
   - pywin32=303=py39hb82d6ee_0
   - pywinpty=2.0.2=py39h5da7b33_0
+  - pyyaml=6.0=py39hb82d6ee_4
   - pyzmq=23.1.0=py39he46f08e_0
+  - re2=2022.04.01=h0e60522_0
   - requests=2.28.0=pyhd8ed1ab_0
+  - rich=12.5.1=pyhd8ed1ab_0
   - ruamel.yaml=0.17.21=py39hb82d6ee_1
   - ruamel.yaml.clib=0.2.6=py39hb82d6ee_1
   - scikit-learn=1.1.1=py39he931e04_0
   - scipy=1.8.1=py39hc0c34ad_0
+  - semver=2.13.0=pyh9f0ad1d_0
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=61.2.0=py39haa95532_0
   - six=1.16.0=pyh6c4a22f_0
+  - smmap=3.0.5=pyh44b312d_0
+  - snappy=1.1.9=h82413e6_1
   - sniffio=1.2.0=py39hcbf5309_3
   - soupsieve=2.3.1=pyhd8ed1ab_0
   - sqlite=3.38.3=h2bbff1b_0
@@ -166,15 +199,21 @@ dependencies:
   - tinycss2=1.1.1=pyhd8ed1ab_0
   - tk=8.6.12=h8ffe710_0
   - toml=0.10.2=pyhd8ed1ab_0
+  - toolz=0.12.0=pyhd8ed1ab_0
   - tornado=6.1=py39hb82d6ee_3
   - tqdm=4.64.0=pyhd8ed1ab_0
   - traitlets=5.3.0=pyhd8ed1ab_0
   - traittypes=0.2.1=pyh9f0ad1d_2
+  - typing_extensions=4.3.0=pyha770c72_0
   - tzdata=2022a=hda174b7_0
+  - tzlocal=4.2=py39hcbf5309_1
   - unicodedata2=14.0.0=py39hb82d6ee_1
   - urllib3=1.26.9=pyhd8ed1ab_0
+  - utf8proc=2.6.1=h2bbff1b_0
+  - validators=0.18.2=pyhd3deb0d_0
   - vc=14.2=h21ff451_1
   - vs2015_runtime=14.27.29016=h5e58377_2
+  - watchdog=2.1.9=py39hcbf5309_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - websocket-client=1.3.2=pyhd8ed1ab_0
@@ -192,9 +231,25 @@ dependencies:
   - xorg-xproto=7.0.31=hcd874cb_1007
   - xyzservices=2022.4.0=pyhd8ed1ab_0
   - xz=5.2.5=h62dcd97_1
+  - yaml=0.2.5=h8ffe710_2
   - zeromq=4.3.4=h0e60522_1
   - zipp=3.8.0=pyhd8ed1ab_0
   - zlib=1.2.12=h8ffe710_1
   - zstd=1.5.2=h6255e5f_1
-prefix: C:\Users\s1085509\.conda\envs\sde_project
-
+  - pip:
+    - appdirs==1.4.4
+    - flask==2.2.2
+    - itsdangerous==2.1.2
+    - notebook-as-pdf==0.5.0
+    - openrouteservice==2.3.3
+    - pandoc==2.2
+    - plumbum==1.7.2
+    - ply==3.11
+    - pyarrow==9.0.0
+    - pyee==8.2.2
+    - pypdf2==2.10.3
+    - pyppeteer==1.0.2
+    - streamlit==1.12.0
+    - streamlit-folium==0.6.14
+    - websockets==10.3
+prefix: C:\Users\carellano.LEGION5PRO-O3OB\.conda\envs\sde_project
